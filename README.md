@@ -46,5 +46,5 @@ set system task-scheduler task notracking_update executable path /config/scripts
 
 ```
 set service dns forwarding options addn-hosts=/config/user-data/notracking/hostnames.txt
-set service dns forwarding options conf-file=/config/user-data/notracking/hostnames.txt
+set service dns forwarding options conf-file=/config/user-data/notracking/domains.txt
 ```
